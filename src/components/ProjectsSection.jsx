@@ -31,6 +31,15 @@ const ProjectsSection = () => {
       image: "/images/luneva.png", // Replace with actual image path
       github: "https://github.com/Rameez2/luneva-store", // Update if your repo is public
       live: "https://luneva-store.vercel.app/",
+    },
+    {
+      title: "Skillio",
+      description:
+        "A modern platform to discover, showcase, and sell online courses. Built with Next.js and Tailwind CSS, Skillio delivers a sleek, responsive interface for learners and educators alike.",
+      tech: ["Next.js", "React.js", "Tailwind CSS", "Vercel"],
+      image: "/images/skillio.png", // Replace with actual image path
+      github: "https://github.com/Rameez2/skillio", // Replace with your actual repo link
+      live: "https://skillio-qgdq.vercel.app/", // Replace with actual deployed link
     }
 
   ];

@@ -1,64 +1,64 @@
 import React, { useState } from 'react';
 import ExperienceCard from './Experience/ExperienceCard';
 
-
 const ExperienceSection = () => {
+
 const [experiences] = useState([
   {
     id: 1,
-    status: 'Current',
-    statusColor: 'green',
-    period: '2022 - Present',
-    title: 'Senior Full Stack Developer',
-    company: 'TechCorp Solutions',
-    companyColor: 'blue',
+    status: 'Contract',
+    statusColor: { bg: '#d1fae5', text: '#065f46' }, // green
+    period: 'Jan 2025 - Jan 2026',
+    title: 'MERN Stack Developer',
+    company: 'Inostrik',
+    companyColor: '#065f46', // green
     description:
-      'Leading a team of 5 developers in building enterprise-level web applications using MERN stack. Architected microservices infrastructure serving 100K+ users.',
+      'Working as a contract-based MERN stack developer delivering scalable web applications and collaborating with remote teams.',
     highlights: [
-      'Built scalable e-commerce platform with 40% performance improvement',
-      'Implemented CI/CD pipelines reducing deployment time by 60%',
-      'Mentored junior developers and conducted code reviews',
+      'Built real-time dashboards and internal tools for clients',
+      'Integrated third-party APIs and improved system reliability',
+      'Delivered features with rapid turnaround in agile sprints',
     ],
-    skills: ['React.js', 'Node.js', 'MongoDB', 'AWS', 'Docker'],
-    timelineColor: 'blue',
+    skills: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Git', 'Appwrite'],
+    timelineColor: '#10b981', // green-500
     side: 'left',
   },
   {
     id: 2,
-    status: '6 Months',
-    statusColor: 'orange',
-    period: '2019',
-    title: 'Web Development Intern',
-    company: 'Digital Solutions Ltd.',
-    companyColor: 'orange',
+    status: '2 Months',
+    statusColor: { bg: '#dbeafe', text: '#1e3a8a' }, // blue
+    period: 'Aug 2024 - Sep 2024',
+    title: 'Backend Intern',
+    company: 'CodeVista Technologies',
+    companyColor: '#1e3a8a', // blue
     description:
-      'My first step into the professional world of web development. Gained hands-on experience with modern web technologies and learned industry best practices.',
+      'Interned as a backend developer focusing on building and optimizing APIs, databases, and authentication systems.',
     highlights: [
-      'Assisted in developing company website and landing pages',
-      'Learned version control with Git and team collaboration',
-      'Participated in code reviews and agile development process',
+      'Built secure RESTful APIs with Node.js and Express',
+      'Worked with PostgreSQL and optimized DB queries',
+      'Wrote unit tests and learned backend architecture principles',
     ],
-    skills: ['HTML/CSS', 'JavaScript', 'PHP', 'MySQL', 'Git'],
-    timelineColor: 'orange',
+    skills: ['Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API', 'GraphQL'],
+    timelineColor: '#2563eb', // blue-600
     side: 'right',
   },
   {
     id: 3,
-    status: '2 Years',
-    statusColor: 'blue',
-    period: '2020 - 2022',
-    title: 'Full Stack Developer',
-    company: 'Innovatech Labs',
-    companyColor: 'blue',
+    status: '2 Months',
+    statusColor: { bg: '#ffedd5', text: '#c2410c' }, // orange
+    period: 'Jan 2023 - Feb 2023',
+    title: 'Frontend Intern',
+    company: 'Skills4U',
+    companyColor: '#c2410c', // orange
     description:
-      'Developed and maintained multiple web applications, collaborating closely with cross-functional teams to deliver new features and improvements.',
+      'Kickstarted my career as a frontend intern, learning real-world application of HTML, CSS, and JavaScript in team environments.',
     highlights: [
-      'Designed RESTful APIs and integrated third-party services',
-      'Optimized application performance leading to 30% faster load times',
-      'Collaborated with UX/UI designers to enhance user experience',
+      'Built responsive UI components and landing pages',
+      'Learned React basics and version control workflows',
+      'Collaborated in weekly sprints and reviews',
     ],
-    skills: ['React.js', 'Express.js', 'PostgreSQL', 'Docker', 'Jest'],
-    timelineColor: 'blue',
+    skills: ['HTML/CSS', 'JavaScript', 'React.js', 'Bootstrap', 'Git'],
+    timelineColor: '#ea580c', // orange-500
     side: 'left',
   },
 ]);
